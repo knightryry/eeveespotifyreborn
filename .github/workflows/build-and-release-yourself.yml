@@ -5,12 +5,12 @@ on:
     inputs:
       ipa_url:
         description: "URL to the decrypted IPA file"
-        default: "https://drive.google.com/file/d/1a7N-57VOB6UiNf2KkLJwOdI_xl2cKET9/view?usp=sharing"
+        default: ""
         required: true
         type: string
       tweak_url:
         description: "URL to the EeveeSpotify tweak file"
-        default: "https://drive.google.com/file/d/1E_XSFAO7oilqcT7l4MaLYU4P24T84mia/view?usp=sharing"
+        default: ""
         required: true
         type: string
 
